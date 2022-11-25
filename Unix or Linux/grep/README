@@ -1,0 +1,3 @@
+grep-print lines that match patterns
+
+grep searches for patterns in each file and prints each line that matches a pattern.
