@@ -1,6 +1,8 @@
 #include<stdio.h>
 #define MAXLINE 100 /*maximum input line length*/
-#include "pattern"
+#include "pattern"/* create a file named pattern and 
+			initialize the variable
+			char pattern[]="your pattern"*/
 int strindex(char source[],char pattern[]);
 
 int main(void)
@@ -28,4 +30,6 @@ int strindex(char s[],char p[])
 	}
 	return -1;
 }
-
+/* run using input file redirection----
+./grep.out < your file
+*/
